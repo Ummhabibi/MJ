@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 
 # Load the Haar cascade for face detection
-face_cascade = cv2.CascadeClassifier('C:/Users/djebb/Downloads/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier(r'C:\\Users\\Ummhabibi\\Documents\\Python Scripts\\haarcascade_frontalface_default.xml')
 
 def detect_faces(color, scale_factor, min_neighbors):
     # Initialize the webcam
